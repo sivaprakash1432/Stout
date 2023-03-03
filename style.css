@@ -1,0 +1,681 @@
+* {
+
+  margin: 0px;
+
+  padding: 0px;
+
+  box-sizing: border-box;
+
+}
+
+nav {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  min-height: 8vh;
+
+  background-color: white;
+
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.heading {
+
+  color: white;
+
+  text-transform: uppercase;
+
+  letter-spacing: 5px;
+
+  font-size: 20px;
+
+}
+
+.nav-links {
+
+  display: flex;
+
+  justify-content: space-around;
+
+  width: 30%;
+
+  align-items: center;
+
+}
+
+.nav-links li {
+
+  list-style: none;
+
+}
+
+.nav-links a {
+
+  color: black;
+
+  text-decoration: none;
+
+  letter-spacing: 3px;
+
+  font-weight: bold;
+
+  font-size: 14px;
+
+  padding: 14px 16px;
+
+}
+
+
+button{
+	background-color: #B0E0E6;
+	border: none;
+	  color: black;
+	  padding: 15px 32px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 16px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+
+}
+
+.one{
+	float: left;
+}
+
+.one p{
+	font-size: 150%;
+	text-align: center;
+	margin-left: 30%;
+	
+}
+.one h1{
+	margin-top: 20%;
+	margin-left: 30%;
+
+}
+.two{
+	float: right;
+	margin-right: 20%;
+}
+
+.btn{
+	 margin-left: 45%;
+}
+
+.side{
+	margin-top: 40%;
+	margin-left: 20%;
+	float: center;
+	display: flex;
+}
+.side > div {
+  padding: 50px;
+  font-size: 15px;
+  margin-top: -47%;
+}
+
+
+.s1 h4{
+	font-size: 150%;
+	text-align: center;
+}
+.s1 p{
+	text-align: center;
+	font-size: 120%;
+}
+
+.s5 h4{
+	font-size: 150%;
+	text-align: center;
+}
+.s5 p{
+	text-align: center;
+	font-size: 120%;
+}
+
+.side1 h1{
+	text-align: center;
+}
+
+.s2 h4{
+	font-size: 150%;
+	text-align: center;
+}
+.s2 p{
+	text-align: center;
+	font-size: 120%;
+}
+
+.s2{
+	background-image: url("txtbg.jpg");
+	width: 280px;
+	height: 390px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.three{
+	margin-left: -30%;
+	margin-top: -8%;
+	text-align: center;
+}
+
+.icon_line{
+	display: flex;
+
+}
+
+
+.row1{
+	margin-left: 60%;
+	margin-top: -17%;
+}
+
+.row{
+	margin-left: 60%;
+	margin-top: -17%;
+}
+.four{
+	display: flex;
+	margin-left: 20%;
+	margin-top: 5%;
+}
+
+.s3 p{
+	font-size: 140%;
+	margin-left: 10%;
+}
+
+.five{
+	margin-left: 20%;
+	margin-top: 4%;
+	display: flex;
+}
+
+.five h2{
+	font-size: 200%;
+}
+
+.five h3{
+	font-size: 150%;
+}
+.five p{
+	font-size: 120%;
+}
+
+.six{
+	margin-left: 20%;
+}
+
+.six p{
+	font-size: 100%;
+}
+
+
+.fa {
+  padding: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+h1{
+	font-family: Comic Sans MS;
+	font-size: 300%;
+	text-align: center;
+	margin-top: 5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-color: white;
+   margin-left: 20%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 20%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+  
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  color: black;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #B0E0E6;
+  text-align: center;
+}
+
+.c2{
+	display: flex;
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+.c2 h2{
+	font-size: 170%;
+}
+
+.c2 p{
+	font-size: 120%;
+}
+
+
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 20px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+.ven{
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.v2{
+	display: flex;
+}
+
+.fle{
+	display: flex;
+}
+
+#scroll-container {
+	width: 16%;
+  border: 3px solid black;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#scroll-text {
+  height: 100%;
+  text-align: center;
+  
+  /* animation properties */
+  -moz-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  
+  -moz-animation: my-animation 5s linear infinite;
+  -webkit-animation: my-animation 5s linear infinite;
+  animation: my-animation 5s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateY(100%); }
+  to { -moz-transform: translateY(-100%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateY(100%); }
+  to { -webkit-transform: translateY(-100%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+  to {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+}
+
+.fade-in-image { animation: fadeIn 5s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-text {
+  font-family: Arial;
+  font-size: 20px;
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+.can{
+	display: flex;
+}
+
+.sem{
+	background-image: url("back.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	padding: 2%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+.contain{
+	display: flex;
+}
+
+.sub{
+	display: flex;
+}
+
+
+
+/* subtle zoom to attention and then back */
+.pop-outin {
+  animation: 2s anim-popoutin ease infinite;
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: black;
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: red;
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    color: black;
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+/* vertical menu styles */
+@media (max-width: 600px) {
+     .nav-links {
+       display: block;
+       margin-left: -60%;
+     }
+     
+}
+
+@media (max-width:600px){
+	.one{
+		margin-left: -30%;
+	}
+}
+
+@media (max-width:600px){
+	.side .s1{
+		margin-left: -10%;
+	}
+}
+
+@media (max-width:600px){
+		.side .s2{
+			margin-top: 120%;
+			margin-left: -125%;
+
+		}
+}
+
+@media (max-width:600px){
+	.side .s5{
+		margin-top: 115%;
+	}
+}
+@media (max-width:600px){
+	.im{
+		width: 60%;
+	}
+}
+@media (max-width:600px){
+	.three{
+		margin-left: 5%;
+	}
+}
+
+@media (max-width:600px){
+	.row1{
+		margin-top: 10%;
+		margin-left: 8%;
+	}
+}
+
+@media (max-width:600px){
+	.five{
+		display: block;
+	}
+}
+
+.com{
+	display: flex;
+}
+
+
+@media (max-width:600px){
+	.contain{
+		display: block;
+	}
+	.can{
+		width: 80%;
+		margin-left: -30%;
+	}
+	.sem{
+		height: 30%;
+	}
+	.com{
+		display: block;
+	}
+	.com1{
+		width: 60%;
+	}
+	.sub{
+		display: block;
+	}
+	.sub img{
+		width: 90%;
+	}
+}
+
+@media (max-width:600px){
+	.fle{
+		margin-left: -30%;
+		width: 170%;
+	}
+	.flow{
+		margin-left: -70%;
+	}
+}
+
+@media (max-width:600px){
+	.n1 img{
+		width: 70%;
+		margin-top: 10%;
+	}
+
+	.row{
+		margin-left: 60%;
+		font-size: 30%;
+		margin-top: -10%;
+	}
+	.col-md-12{
+		font-size: 140%;
+	}
+	.con1 img{
+		width: 80%;
+	}
+	.c2{
+		display: block;
+		margin-left: 5%;
+	}
+	.con2 p{
+		margin-top: 10%;
+	}
+	.seven{
+		margin-left: -50%;
+	}
+	.seven input{
+		width: 50%;
+	}
+	.can{
+		display: block;
+	}
+	.six1 h3{
+		margin-top: 40%;
+		margin-left: -50%;
+	}
+	.six1 p{
+		margin-left: -50%;
+	}
+	.six2 h3{
+		margin-top: 40%;
+		margin-left: -120%;
+	}
+	.six2 li{
+		margin-left: -90%;
+	}
+	.s9 iframe{
+		width: 130%;
+		margin-left: -33%;
+	}
+	.fade-in-image{
+		margin-left: 35%;
+		width: 10%;
+	}
+	.fade-in-text{
+		margin-left: 40%;
+	}
+	.venview img{
+		margin-left: -10%;
+	}
+	.v2 div{
+		margin-right: 16%;
+		margin-left: -15%;
+		text-align: center;	
+	}
+
+}
